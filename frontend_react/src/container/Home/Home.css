@@ -1,0 +1,63 @@
+.training{
+    height: 450px;
+    width: 450px;
+    border-radius: 24px;
+    object-fit: cover;
+
+
+}
+
+.nutrition{
+    height: 450px;
+    width: 450px;
+    border-radius: 24px;
+    object-fit: cover;
+
+
+}
+.advice{
+    border-radius: 24px ;
+width: 750px;
+    height: 750px;
+    object-fit: cover;
+}
+svg{
+    width: 100%;
+
+}
+/* Set the background color */
+body {
+
+    font-family: 'Roboto', sans-serif;
+
+  }
+.svg-bg{
+height: 800px;
+    width: 100%;
+
+}
+
+.custom-shape-divider-bottom-1683375155 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1683375155 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 164px;
+    @media screen and (max-width: 875px) {
+        height: 82px;
+      }
+}
+
+.custom-shape-divider-bottom-1683375155 .shape-fill {
+    fill: white;
+
+}

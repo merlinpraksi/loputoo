@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import 'react-calendar/dist/Calendar.css';
 import contact from '../../assets/contact.jpg'
 import { toast } from 'react-hot-toast';
 

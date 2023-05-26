@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/loputoo/static/css/main.09e0911b.css",
+    "main.js": "/loputoo/static/js/main.278a1741.js",
+    "static/media/merlin.png": "/loputoo/static/media/merlin.993284dd84409bce4a68.png",
+    "static/media/contact.jpg": "/loputoo/static/media/contact.e2356827127b6bf1566d.jpg",
+    "static/media/train.jpg": "/loputoo/static/media/train.94d756fdd093b20a969d.jpg",
+    "static/media/advice.jpg": "/loputoo/static/media/advice.4086b814fc4bbe8152a4.jpg",
+    "static/media/nutrition.jpg": "/loputoo/static/media/nutrition.506a565e5ce32d5139bf.jpg",
+    "static/media/gmail.png": "/loputoo/static/media/gmail.6e6bcce7625e4f58bba4.png",
+    "static/media/instagram.png": "/loputoo/static/media/instagram.02670244036d2d82e1c3.png",
+    "index.html": "/loputoo/index.html",
+    "main.09e0911b.css.map": "/loputoo/static/css/main.09e0911b.css.map",
+    "main.278a1741.js.map": "/loputoo/static/js/main.278a1741.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09e0911b.css",
+    "static/js/main.278a1741.js"
+  ]
+}

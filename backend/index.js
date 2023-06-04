@@ -1,21 +1,42 @@
+import dotenv from 'dotenv'
 import express from 'express'
 import mongoose from 'mongoose'
 import cors from 'cors'
 import jwt from 'jsonwebtoken'
+dotenv.config()
 const app = express()
 const PORT = process.env.PORT || 5050;
-
+import  path from 'path'
 import Bookings from './models/appointment.model.js'
 import User from './models/user.model.js'
 const jwtkey ='ilovenodejs'
+
+
+
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 app.use(cors('*'))
 app.use(express.json())
 
+
+app.use(express.static('client/build'))
 /// database connectiong
 
+app.get('*', (req, res) => {
+
+    try {
+        res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+    }
+    catch (error) {
+        console.log(error);
+    }
+})
 
 
-mongoose.connect('mongodb+srv://praksmerlin:kRl2OBkcQ8NT3prJ@cluster0.f4sd746.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect(process.env.MONGO_URL)
 .then(()=>{
     console.log('connetced')
 }).catch(err=>{

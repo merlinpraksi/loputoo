@@ -3,7 +3,7 @@ import express from 'express'
 import mongoose from 'mongoose'
 import cors from 'cors'
 import jwt from 'jsonwebtoken'
-dotenv.config()
+dotenv.config({path:'./.env'})
 const app = express()
 const PORT = process.env.PORT || 5050;
 import  path from 'path'
